@@ -70,7 +70,7 @@ function Graph() {
                 }
             }
             console.log(`Fastest Routes from ${start} to ${end}`);
-            console.log(paths);
+            paths.forEach(element => console.log(element));
         }
 
     }
